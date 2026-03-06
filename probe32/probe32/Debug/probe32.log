@@ -1,0 +1,600 @@
+﻿Build started 2026-03-05 02:25:22.
+Environment at start of build:
+USERDOMAIN = DLAT542
+OS = Windows_NT
+LOGONSERVER = \\DLAT542
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+PROCESSOR_ARCHITECTURE = AMD64
+OneDriveConsumer = C:\Users\kylej\OneDrive
+TMP = C:\Users\kylej\AppData\Local\Temp
+Path = C:\Program Files\Microsoft\jdk-25.0.2.10-hotspot\bin;C:\Program Files\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Mullvad VPN\resources;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\kylej\AppData\Local\Microsoft\WindowsApps;C:\Users\kylej\AppData\Local\Microsoft\WinGet\Links;C:\Users\kylej\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kylej\.dotnet\tools;C:\Users\kylej\AppData\Local\PowerToys\DSCModules\;;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\PrivateAssemblies\runtimes\win-x64\native
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+EFC_10796_4126798990 = 1
+ThreadedWaitDialogDpiContext = -4
+VisualStudioDir = C:\Users\kylej\OneDrive\Documents\Visual Studio 18
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+LOCALAPPDATA = C:\Users\kylej\AppData\Local
+ALLUSERSPROFILE = C:\ProgramData
+ProgramW6432 = C:\Program Files
+CommonProgramFiles = C:\Program Files\Common Files
+VisualStudioEdition = Microsoft Visual Studio Community 2026
+USERDOMAIN_ROAMINGPROFILE = DLAT542
+MSBuildLoadMicrosoftTargetsReadOnly = true
+APPDATA = C:\Users\kylej\AppData\Roaming
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+windir = C:\WINDOWS
+ServiceHubHostServiceBrokerPipeName = \\.\pipe\440F37B8-CE75-482F-A64E-04856B4E752D
+OneDrive = C:\Users\kylej\OneDrive
+NUMBER_OF_PROCESSORS = 8
+SystemDrive = C:
+HOMEDRIVE = C:
+TEMP = C:\Users\kylej\AppData\Local\Temp
+VisualStudioVersion = 18.0
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+VSAPPIDDIR = C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+PROCESSOR_LEVEL = 6
+ProgramFiles(x86) = C:\Program Files (x86)
+DriverData = C:\Windows\System32\Drivers\DriverData
+SignInWithHomeTenantOnly = False
+ProgramData = C:\ProgramData
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+VSLANG = 1033
+VSSKUEDITION = Community
+ComSpec = C:\WINDOWS\system32\cmd.exe
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+VS_Perf_Session_GCHeapCount = 2
+VsPerMonitorDpiAwarenessEnabled.11828 = TRUE
+USERNAME = kylej
+EFC_10796_1592913036 = 1
+ServiceHubLogSessionKey = 86BD3370
+PkgDefApplicationConfigFile = C:\Users\kylej\AppData\Local\Microsoft\VisualStudio\18.0_46cf0500\devenv.exe.config
+FPS_BROWSER_USER_PROFILE_STRING = Default
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = DLAT542
+ProgramFiles = C:\Program Files
+PROCESSOR_REVISION = 8c01
+USERPROFILE = C:\Users\kylej
+SystemRoot = C:\WINDOWS
+JAVA_HOME = C:\Program Files\Microsoft\jdk-25.0.2.10-hotspot\
+HOMEPATH = \Users\kylej
+
+Logging verbosity is set to: Diagnostic.02:25:22.347     1>Project "B:\source\probe32\probe32.vcxproj" on node 2 (Build target(s)).
+02:25:22.347     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
+02:25:22.352     1>Task "Message" (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+02:25:22.354     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "probe32.vcxproj".: (TargetId:2)
+02:25:22.354     1>Target "SetTelemetryEnvironmentVariables: (TargetId:3)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.DesignTime.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+                   Task "SetEnv" (TaskId:4)
+                   Done executing task "SetEnv". (TaskId:4)
+                   Task "SetEnv" (TaskId:5)
+                   Done executing task "SetEnv". (TaskId:5)
+                   Task "SetEnv" (TaskId:6)
+                   Done executing task "SetEnv". (TaskId:6)
+                   Task "SetEnv" (TaskId:7)
+                   Done executing task "SetEnv". (TaskId:7)
+                   Task "SetEnv" (TaskId:8)
+                   Done executing task "SetEnv". (TaskId:8)
+02:25:22.356     1>Done building target "SetTelemetryEnvironmentVariables" in project "probe32.vcxproj".: (TargetId:3)
+02:25:22.356     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+02:25:22.356     1>Done building target "_PrepareForBuild" in project "probe32.vcxproj".: (TargetId:4)
+02:25:22.356     1>Target "_PrepareForReferenceResolution: (TargetId:5)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveReferences" depends on it):
+02:25:22.356     1>Done building target "_PrepareForReferenceResolution" in project "probe32.vcxproj".: (TargetId:5)
+02:25:22.356     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveReferences" depends on it):
+02:25:22.356     1>Done building target "BeforeResolveReferences" in project "probe32.vcxproj".: (TargetId:6)
+02:25:22.356     1>Target "IgnoreJavaScriptOutputAssembly: (TargetId:7)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "AssignProjectConfiguration" depends on it):
+02:25:22.356     1>Done building target "IgnoreJavaScriptOutputAssembly" in project "probe32.vcxproj".: (TargetId:7)
+02:25:22.356     1>Target "AssignProjectConfiguration: (TargetId:8)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "AssignProjectConfiguration" (TaskId:9)
+                   Done executing task "AssignProjectConfiguration". (TaskId:9)
+02:25:22.356     1>Done building target "AssignProjectConfiguration" in project "probe32.vcxproj".: (TargetId:8)
+02:25:22.356     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:9)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareProjectReferences" depends on it):
+02:25:22.362     1>Done building target "_SplitProjectReferencesByFileExistence" in project "probe32.vcxproj".: (TargetId:9)
+02:25:22.362     1>Target "_AddOutputPathToGlobalPropertiesToRemove: (TargetId:10)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_GetProjectReferenceTargetFrameworkProperties" depends on it):
+02:25:22.362     1>Done building target "_AddOutputPathToGlobalPropertiesToRemove" in project "probe32.vcxproj".: (TargetId:10)
+02:25:22.362     1>Target "_GetProjectReferenceTargetFrameworkProperties: (TargetId:11)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareProjectReferences" depends on it):
+                   Task "MSBuild" (TaskId:10)
+                   Done executing task "MSBuild". (TaskId:10)
+                   Task "SetRidAgnosticValueForProjects" (TaskId:11)
+                   Done executing task "SetRidAgnosticValueForProjects". (TaskId:11)
+02:25:22.364     1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "probe32.vcxproj".: (TargetId:11)
+02:25:22.364     1>Target "PrepareProjectReferences: (TargetId:12)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveProjectReferences" depends on it):
+02:25:22.364     1>Done building target "PrepareProjectReferences" in project "probe32.vcxproj".: (TargetId:12)
+02:25:22.364     1>Target "ResolveProjectReferences: (TargetId:13)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveReferences" depends on it):
+02:25:22.364     1>Done building target "ResolveProjectReferences" in project "probe32.vcxproj".: (TargetId:13)
+02:25:22.364     1>Target "GetFrameworkPaths: (TargetId:14)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+02:25:22.364     1>Done building target "GetFrameworkPaths" in project "probe32.vcxproj".: (TargetId:14)
+02:25:22.364     1>Target "GetReferenceAssemblyPaths: (TargetId:15)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+02:25:22.364     1>Done building target "GetReferenceAssemblyPaths" in project "probe32.vcxproj".: (TargetId:15)
+02:25:22.364     1>Target "AddExternalIncludDirectoriesToPaths: (TargetId:16)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.Current.targets" from project "B:\source\probe32\probe32.vcxproj" (target "SetBuildDefaultEnvironmentVariables" depends on it):
+02:25:22.364     1>Done building target "AddExternalIncludDirectoriesToPaths" in project "probe32.vcxproj".: (TargetId:16)
+02:25:22.364     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:17)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.Current.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "SetEnv" (TaskId:12)
+                   Done executing task "SetEnv". (TaskId:12)
+                   Task "SetEnv" (TaskId:13)
+                   Done executing task "SetEnv". (TaskId:13)
+                   Task "SetEnv" (TaskId:14)
+                   Done executing task "SetEnv". (TaskId:14)
+                   Task "SetEnv" (TaskId:15)
+                   Done executing task "SetEnv". (TaskId:15)
+                   Task "SetEnv" (TaskId:16)
+                   Done executing task "SetEnv". (TaskId:16)
+02:25:22.364     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "probe32.vcxproj".: (TargetId:17)
+02:25:22.364     1>Target "GetResolvedWinMD: (TargetId:18)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareForBuild" depends on it):
+02:25:22.364     1>Done building target "GetResolvedWinMD" in project "probe32.vcxproj".: (TargetId:18)
+02:25:22.364     1>Target "_CheckWindowsSDKInstalled: (TargetId:19)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.WindowsSDK.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareForBuild" depends on it):
+02:25:22.364     1>Done building target "_CheckWindowsSDKInstalled" in project "probe32.vcxproj".: (TargetId:19)
+02:25:22.364     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:20)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VisualStudio\v18.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "SetEnv" (TaskId:17)
+                   Done executing task "SetEnv". (TaskId:17)
+02:25:22.364     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "probe32.vcxproj".: (TargetId:20)
+02:25:22.364     1>Target "PrepareForBuild: (TargetId:21)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "MakeDir" (TaskId:18)
+                   Done executing task "MakeDir". (TaskId:18)
+                   Task "CheckVCToolsetVersion" (TaskId:19)
+                   Done executing task "CheckVCToolsetVersion". (TaskId:19)
+                   Task "VCMessage" (TaskId:20)
+                   Done executing task "VCMessage". (TaskId:20)
+                   Task "MakeDir" (TaskId:21)
+                   Done executing task "MakeDir". (TaskId:21)
+02:25:22.374     1>Done building target "PrepareForBuild" in project "probe32.vcxproj".: (TargetId:21)
+02:25:22.374     1>Target "ResolveSDKReferences: (TargetId:22)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+02:25:22.374     1>Done building target "ResolveSDKReferences" in project "probe32.vcxproj".: (TargetId:22)
+02:25:22.374     1>Target "ExpandSDKReferences: (TargetId:23)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+02:25:22.374     1>Done building target "ExpandSDKReferences" in project "probe32.vcxproj".: (TargetId:23)
+02:25:22.374     1>Target "ResolveAssemblyReferences: (TargetId:24)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveReferences" depends on it):
+02:25:22.374     1>Done building target "ResolveAssemblyReferences" in project "probe32.vcxproj".: (TargetId:24)
+02:25:22.374     1>Target "AfterResolveReferences: (TargetId:25)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ResolveReferences" depends on it):
+02:25:22.374     1>Done building target "AfterResolveReferences" in project "probe32.vcxproj".: (TargetId:25)
+02:25:22.374     1>Target "ResolveReferences: (TargetId:26)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+02:25:22.374     1>Done building target "ResolveReferences" in project "probe32.vcxproj".: (TargetId:26)
+02:25:22.374     1>Target "InitializeBuildStatus: (TargetId:27)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:22)
+                   Done executing task "ReadLinesFromFile". (TaskId:22)
+                   Task "WriteLinesToFile" (TaskId:23)
+                   Done executing task "WriteLinesToFile". (TaskId:23)
+                   Task "Touch" (TaskId:24)
+                   Done executing task "Touch". (TaskId:24)
+02:25:22.382     1>Done building target "InitializeBuildStatus" in project "probe32.vcxproj".: (TargetId:27)
+02:25:22.382     1>Target "BuildGenerateSourcesTraverse: (TargetId:28)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "BuildGenerateSources" depends on it):
+02:25:22.382     1>Done building target "BuildGenerateSourcesTraverse" in project "probe32.vcxproj".: (TargetId:28)
+02:25:22.382     1>Target "BeforeBuildGenerateSources: (TargetId:29)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+02:25:22.382     1>Done building target "BeforeBuildGenerateSources" in project "probe32.vcxproj".: (TargetId:29)
+02:25:22.382     1>Target "PreBuildEvent: (TargetId:30)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+02:25:22.383     1>Done building target "PreBuildEvent" in project "probe32.vcxproj".: (TargetId:30)
+02:25:22.383     1>Target "_SelectedFiles: (TargetId:31)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "SelectCustomBuild" depends on it):
+02:25:22.383     1>Done building target "_SelectedFiles" in project "probe32.vcxproj".: (TargetId:31)
+02:25:22.383     1>Target "SelectCustomBuild: (TargetId:32)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "CustomBuild" depends on it):
+02:25:22.383     1>Done building target "SelectCustomBuild" in project "probe32.vcxproj".: (TargetId:32)
+02:25:22.383     1>Target "ComputeCustomBuildOutput: (TargetId:33)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "CustomBuild" depends on it):
+                   Task "MakeDir" (TaskId:25)
+                   Done executing task "MakeDir". (TaskId:25)
+02:25:22.383     1>Done building target "ComputeCustomBuildOutput" in project "probe32.vcxproj".: (TargetId:33)
+02:25:22.383     1>Target "CustomBuild: (TargetId:34)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+                   Task "GetOutOfDateItems" (TaskId:26)
+                   Done executing task "GetOutOfDateItems". (TaskId:26)
+                   Task "GetOutOfDateItems" (TaskId:27)
+                   Done executing task "GetOutOfDateItems". (TaskId:27)
+02:25:22.383     1>Done building target "CustomBuild" in project "probe32.vcxproj".: (TargetId:34)
+02:25:22.383     1>Target "_WriteMasmTlogs: (TargetId:35)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\BuildCustomizations\masm.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_MASM" depends on it):
+                   Task "WriteLinesToFile" (TaskId:28)
+                   Done executing task "WriteLinesToFile". (TaskId:28)
+                   Task "WriteLinesToFile" (TaskId:29)
+                   Done executing task "WriteLinesToFile". (TaskId:29)
+02:25:22.388     1>Done building target "_WriteMasmTlogs" in project "probe32.vcxproj".: (TargetId:35)
+02:25:22.388     1>Target "_MASM: (TargetId:36)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\BuildCustomizations\masm.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+                   Task "Message" (TaskId:30)
+                     Assembling test.asm... (TaskId:30)
+                   Done executing task "Message". (TaskId:30)
+                   Task "MASM" (TaskId:31)
+                     cmd.exe /C "C:\Users\kylej\AppData\Local\Temp\tmp01a2374c9c0e4b3ea0273a4cc0af82da.cmd" (TaskId:31)
+                     ml.exe /c /nologo /Zi /Fo"probe32\Debug\test.obj" /I "B:\lib\Irvine" /W3 /errorReport:prompt  /Tatest.asm (TaskId:31)
+02:25:22.922     1>test.asm(10): warning A4011: multiple .MODEL directives found : .MODEL ignored
+                   Done executing task "MASM". (TaskId:31)
+02:25:22.929     1>Done building target "_MASM" in project "probe32.vcxproj".: (TargetId:36)
+02:25:22.929     1>Target "CopyFileToFolders: (TargetId:37)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+                   Task "GetOutOfDateItems" (TaskId:32)
+                   Done executing task "GetOutOfDateItems". (TaskId:32)
+02:25:22.929     1>Done building target "CopyFileToFolders" in project "probe32.vcxproj".: (TargetId:37)
+02:25:22.929     1>Target "_Xsd: (TargetId:38)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+02:25:22.929     1>Done building target "_Xsd" in project "probe32.vcxproj".: (TargetId:38)
+02:25:22.929     1>Target "MakeDirsForMidl: (TargetId:39)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:33)
+                   Done executing task "Makedir". (TaskId:33)
+02:25:22.929     1>Done building target "MakeDirsForMidl" in project "probe32.vcxproj".: (TargetId:39)
+02:25:22.929     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:40)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Midl" depends on it):
+02:25:22.929     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "probe32.vcxproj".: (TargetId:40)
+02:25:22.929     1>Target "AfterMidl: (TargetId:41)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Midl" depends on it):
+02:25:22.929     1>Done building target "AfterMidl" in project "probe32.vcxproj".: (TargetId:41)
+02:25:22.929     1>Target "_Midl: (TargetId:42)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+02:25:22.929     1>Done building target "_Midl" in project "probe32.vcxproj".: (TargetId:42)
+02:25:22.929     1>Target "AfterBuildGenerateSources: (TargetId:43)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+02:25:22.929     1>Done building target "AfterBuildGenerateSources" in project "probe32.vcxproj".: (TargetId:43)
+02:25:22.929     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:44)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+02:25:22.929     1>Done building target "AfterBuildGenerateSourcesEvent" in project "probe32.vcxproj".: (TargetId:44)
+02:25:22.929     1>Target "_BuildGenerateSourcesAction: (TargetId:45)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "BuildGenerateSources" depends on it):
+02:25:22.929     1>Done building target "_BuildGenerateSourcesAction" in project "probe32.vcxproj".: (TargetId:45)
+02:25:22.929     1>Target "BuildGenerateSources: (TargetId:46)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+02:25:22.929     1>Done building target "BuildGenerateSources" in project "probe32.vcxproj".: (TargetId:46)
+02:25:22.929     1>Target "BuildCompileTraverse: (TargetId:47)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "BuildCompile" depends on it):
+02:25:22.929     1>Done building target "BuildCompileTraverse" in project "probe32.vcxproj".: (TargetId:47)
+02:25:22.929     1>Target "BeforeClCompile: (TargetId:48)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ClCompile" depends on it):
+02:25:22.929     1>Done building target "BeforeClCompile" in project "probe32.vcxproj".: (TargetId:48)
+02:25:22.929     1>Target "ComputeCLInputPDBName: (TargetId:49)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ClCompile" depends on it):
+02:25:22.929     1>Done building target "ComputeCLInputPDBName" in project "probe32.vcxproj".: (TargetId:49)
+02:25:22.929     1>Target "FindReferenceAssembliesForReferences: (TargetId:50)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ComputeReferenceCLInput" depends on it):
+02:25:22.932     1>Done building target "FindReferenceAssembliesForReferences" in project "probe32.vcxproj".: (TargetId:50)
+02:25:22.932     1>Target "GetReferencedVCProjectsInfo: (TargetId:51)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ComputeReferenceCLInput" depends on it):
+02:25:22.932     1>Done building target "GetReferencedVCProjectsInfo" in project "probe32.vcxproj".: (TargetId:51)
+02:25:22.932     1>Target "ComputeReferenceCLInput: (TargetId:52)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ClCompile" depends on it):
+02:25:22.933     1>Done building target "ComputeReferenceCLInput" in project "probe32.vcxproj".: (TargetId:52)
+02:25:22.933     1>Target "WarnCompileDuplicatedFilename: (TargetId:53)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ClCompile" depends on it):
+02:25:22.933     1>Done building target "WarnCompileDuplicatedFilename" in project "probe32.vcxproj".: (TargetId:53)
+02:25:22.933     1>Target "MakeDirsForCl: (TargetId:54)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:34)
+                   Done executing task "MakeDir". (TaskId:34)
+02:25:22.933     1>Done building target "MakeDirsForCl" in project "probe32.vcxproj".: (TargetId:54)
+02:25:22.933     1>Target "AfterClCompile: (TargetId:55)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ClCompile" depends on it):
+02:25:22.933     1>Done building target "AfterClCompile" in project "probe32.vcxproj".: (TargetId:55)
+02:25:22.933     1>Target "_ClCompile: (TargetId:56)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildCompileAction" depends on it):
+02:25:22.933     1>Done building target "_ClCompile" in project "probe32.vcxproj".: (TargetId:56)
+02:25:22.933     1>Target "BeforeResourceCompile: (TargetId:57)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ResourceCompile" depends on it):
+02:25:22.933     1>Done building target "BeforeResourceCompile" in project "probe32.vcxproj".: (TargetId:57)
+02:25:22.933     1>Target "MakeDirsForResourceCompile: (TargetId:58)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:35)
+                   Done executing task "MakeDir". (TaskId:35)
+02:25:22.933     1>Done building target "MakeDirsForResourceCompile" in project "probe32.vcxproj".: (TargetId:58)
+02:25:22.933     1>Target "AfterResourceCompile: (TargetId:59)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_ResourceCompile" depends on it):
+02:25:22.933     1>Done building target "AfterResourceCompile" in project "probe32.vcxproj".: (TargetId:59)
+02:25:22.933     1>Target "_ResourceCompile: (TargetId:60)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildCompileAction" depends on it):
+02:25:22.933     1>Done building target "_ResourceCompile" in project "probe32.vcxproj".: (TargetId:60)
+02:25:22.933     1>Target "AfterBuildCompileEvent: (TargetId:61)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildCompileAction" depends on it):
+02:25:22.933     1>Done building target "AfterBuildCompileEvent" in project "probe32.vcxproj".: (TargetId:61)
+02:25:22.933     1>Target "_BuildCompileAction: (TargetId:62)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "BuildCompile" depends on it):
+02:25:22.933     1>Done building target "_BuildCompileAction" in project "probe32.vcxproj".: (TargetId:62)
+02:25:22.933     1>Target "BuildCompile: (TargetId:63)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+02:25:22.933     1>Done building target "BuildCompile" in project "probe32.vcxproj".: (TargetId:63)
+02:25:22.933     1>Target "BuildLinkTraverse: (TargetId:64)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "BuildLink" depends on it):
+02:25:22.933     1>Done building target "BuildLinkTraverse" in project "probe32.vcxproj".: (TargetId:64)
+02:25:22.933     1>Target "ComputeLegacyManifestEmbedding: (TargetId:65)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:22.933     1>Done building target "ComputeLegacyManifestEmbedding" in project "probe32.vcxproj".: (TargetId:65)
+02:25:22.933     1>Target "BeforeLink: (TargetId:66)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "BeforeLink" in project "probe32.vcxproj".: (TargetId:66)
+02:25:22.933     1>Target "ComputeRCOutputs: (TargetId:67)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+02:25:22.933     1>Done building target "ComputeRCOutputs" in project "probe32.vcxproj".: (TargetId:67)
+02:25:22.933     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:68)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "ComputeRCGeneratedLinkInputs" in project "probe32.vcxproj".: (TargetId:68)
+02:25:22.933     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:69)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "probe32.vcxproj".: (TargetId:69)
+02:25:22.933     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:70)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "ComputeCLGeneratedLinkInputs" in project "probe32.vcxproj".: (TargetId:70)
+02:25:22.933     1>Target "ComputeLinkInputsFromProject: (TargetId:71)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "ComputeLinkInputsFromProject" in project "probe32.vcxproj".: (TargetId:71)
+02:25:22.933     1>Target "ComputeMASMOutput: (TargetId:72)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\BuildCustomizations\masm.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "ComputeMASMOutput" in project "probe32.vcxproj".: (TargetId:72)
+02:25:22.933     1>Target "ComputeManifestInputsTargets: (TargetId:73)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "ComputeManifestInputsTargets" in project "probe32.vcxproj".: (TargetId:73)
+02:25:22.933     1>Target "AssignTargetPaths: (TargetId:74)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Task "AssignTargetPath" (TaskId:36)
+                   Done executing task "AssignTargetPath". (TaskId:36)
+                   Task "AssignTargetPath" (TaskId:37)
+                   Done executing task "AssignTargetPath". (TaskId:37)
+                   Task "AssignTargetPath" (TaskId:38)
+                   Done executing task "AssignTargetPath". (TaskId:38)
+                   Task "AssignTargetPath" (TaskId:39)
+                   Done executing task "AssignTargetPath". (TaskId:39)
+02:25:22.933     1>Done building target "AssignTargetPaths" in project "probe32.vcxproj".: (TargetId:74)
+02:25:22.933     1>Target "SplitResourcesByCulture: (TargetId:75)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Task "AssignCulture" (TaskId:40)
+                   Done executing task "AssignCulture". (TaskId:40)
+02:25:22.933     1>Done building target "SplitResourcesByCulture" in project "probe32.vcxproj".: (TargetId:75)
+02:25:22.933     1>Target "CreateCustomManifestResourceNames: (TargetId:76)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareResourceNames" depends on it):
+02:25:22.933     1>Done building target "CreateCustomManifestResourceNames" in project "probe32.vcxproj".: (TargetId:76)
+02:25:22.933     1>Target "PrepareResourceNames: (TargetId:77)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "PrepareResourceNames" in project "probe32.vcxproj".: (TargetId:77)
+02:25:22.933     1>Target "MakeDirsForLink: (TargetId:78)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:41)
+                   Done executing task "MakeDir". (TaskId:41)
+02:25:22.933     1>Done building target "MakeDirsForLink" in project "probe32.vcxproj".: (TargetId:78)
+02:25:22.933     1>Target "DoLinkOutputFilesMatch: (TargetId:79)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "DoLinkOutputFilesMatch" in project "probe32.vcxproj".: (TargetId:79)
+02:25:22.933     1>Target "PreLinkEvent: (TargetId:80)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:22.933     1>Done building target "PreLinkEvent" in project "probe32.vcxproj".: (TargetId:80)
+02:25:22.933     1>Target "ComputeLinkSwitches: (TargetId:81)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Link" depends on it):
+02:25:22.933     1>Done building target "ComputeLinkSwitches" in project "probe32.vcxproj".: (TargetId:81)
+02:25:22.933     1>Target "Link: (TargetId:82)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+                   Task "Link" (TaskId:42)
+                     C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"B:\source\probe32\Debug\probe32.exe" /INCREMENTAL /ILK:"probe32\Debug\probe32.ilk" /NOLOGO /LIBPATH:B:\lib\Irvine kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib irvine32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"B:\source\probe32\Debug\probe32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"B:\source\probe32\Debug\probe32.lib" /MACHINE:X86 probe32\Debug\test.obj (TaskId:42)
+                   Done executing task "Link". (TaskId:42)
+                   Task "Message" (TaskId:43)
+                     probe32.vcxproj -> B:\source\probe32\Debug\probe32.exe (TaskId:43)
+                   Done executing task "Message". (TaskId:43)
+02:25:24.084     1>Done building target "Link" in project "probe32.vcxproj".: (TargetId:82)
+02:25:24.084     1>Target "AfterLink: (TargetId:83)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_Link" depends on it):
+02:25:24.084     1>Done building target "AfterLink" in project "probe32.vcxproj".: (TargetId:83)
+02:25:24.084     1>Target "_Link: (TargetId:84)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.084     1>Done building target "_Link" in project "probe32.vcxproj".: (TargetId:84)
+02:25:24.084     1>Target "_ALink: (TargetId:85)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.084     1>Done building target "_ALink" in project "probe32.vcxproj".: (TargetId:85)
+02:25:24.084     1>Target "_Manifest: (TargetId:86)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.084     1>Done building target "_Manifest" in project "probe32.vcxproj".: (TargetId:86)
+02:25:24.084     1>Target "RegisterOutput: (TargetId:87)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.084     1>Done building target "RegisterOutput" in project "probe32.vcxproj".: (TargetId:87)
+02:25:24.084     1>Target "ResolvedXDCMake: (TargetId:88)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_XdcMake" depends on it):
+02:25:24.084     1>Done building target "ResolvedXDCMake" in project "probe32.vcxproj".: (TargetId:88)
+02:25:24.084     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:89)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_XdcMake" depends on it):
+02:25:24.084     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "probe32.vcxproj".: (TargetId:89)
+02:25:24.084     1>Target "MakeDirsForXdcMake: (TargetId:90)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:44)
+                   Done executing task "MakeDir". (TaskId:44)
+02:25:24.084     1>Done building target "MakeDirsForXdcMake" in project "probe32.vcxproj".: (TargetId:90)
+02:25:24.084     1>Target "_XdcMake: (TargetId:91)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.084     1>Done building target "_XdcMake" in project "probe32.vcxproj".: (TargetId:91)
+02:25:24.084     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:92)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BscMake" depends on it):
+02:25:24.084     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "probe32.vcxproj".: (TargetId:92)
+02:25:24.084     1>Target "MakeDirsForBscMake: (TargetId:93)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:45)
+                   Done executing task "MakeDir". (TaskId:45)
+02:25:24.084     1>Done building target "MakeDirsForBscMake" in project "probe32.vcxproj".: (TargetId:93)
+02:25:24.084     1>Target "_BscMake: (TargetId:94)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.084     1>Done building target "_BscMake" in project "probe32.vcxproj".: (TargetId:94)
+02:25:24.084     1>Target "BuiltProjectOutputGroup: (TargetId:95)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "CreateRecipeFile" depends on it):
+02:25:24.087     1>Done building target "BuiltProjectOutputGroup" in project "probe32.vcxproj".: (TargetId:95)
+02:25:24.087     1>Target "SatelliteDllsProjectOutputGroup: (TargetId:96)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "CreateRecipeFile" depends on it):
+02:25:24.087     1>Done building target "SatelliteDllsProjectOutputGroup" in project "probe32.vcxproj".: (TargetId:96)
+02:25:24.087     1>Target "MakeDirsForFxc: (TargetId:97)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "ContentFilesProjectOutputGroup" depends on it):
+                   Task "MakeDir" (TaskId:46)
+                   Done executing task "MakeDir". (TaskId:46)
+02:25:24.088     1>Done building target "MakeDirsForFxc" in project "probe32.vcxproj".: (TargetId:97)
+02:25:24.088     1>Target "ContentFilesProjectOutputGroup: (TargetId:98)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "CreateRecipeFile" depends on it):
+02:25:24.088     1>Done building target "ContentFilesProjectOutputGroup" in project "probe32.vcxproj".: (TargetId:98)
+02:25:24.088     1>Target "CreateRecipeFile: (TargetId:99)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+                   Task "GenerateDesktopDeployRecipe" (TaskId:47)
+                   Done executing task "GenerateDesktopDeployRecipe". (TaskId:47)
+02:25:24.110     1>Done building target "CreateRecipeFile" in project "probe32.vcxproj".: (TargetId:99)
+02:25:24.110     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:100)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+02:25:24.110     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "probe32.vcxproj".: (TargetId:100)
+02:25:24.110     1>Target "CreateSatelliteAssemblies: (TargetId:101)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.110     1>Done building target "CreateSatelliteAssemblies" in project "probe32.vcxproj".: (TargetId:101)
+02:25:24.110     1>Target "_Appverifier: (TargetId:102)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.110     1>Done building target "_Appverifier" in project "probe32.vcxproj".: (TargetId:102)
+02:25:24.110     1>Target "_Deploy: (TargetId:103)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.110     1>Done building target "_Deploy" in project "probe32.vcxproj".: (TargetId:103)
+02:25:24.112     1>Target "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (TargetId:104)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+02:25:24.112     1>Done building target "_PopulateCommonStateForGetCopyToOutputDirectoryItems" in project "probe32.vcxproj".: (TargetId:104)
+02:25:24.112     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:105)" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "B:\source\probe32\probe32.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:48)
+                   Done executing task "AssignTargetPath". (TaskId:48)
+02:25:24.112     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "probe32.vcxproj".: (TargetId:105)
+02:25:24.112     1>Target "GetCopyToOutputDirectoryItems: (TargetId:106)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "CallTarget" (TaskId:49)
+02:25:24.114     1>Target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (TargetId:107)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:50)
+                   Done executing task "AssignTargetPath". (TaskId:50)
+02:25:24.114     1>Done building target "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" in project "probe32.vcxproj".: (TargetId:107)
+                   Done executing task "CallTarget". (TaskId:49)
+                   Task "CallTarget" (TaskId:51)
+02:25:24.115     1>Target "_GetCopyToOutputDirectoryItemsFromThisProject: (TargetId:108)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:52)
+                   Done executing task "AssignTargetPath". (TaskId:52)
+02:25:24.115     1>Done building target "_GetCopyToOutputDirectoryItemsFromThisProject" in project "probe32.vcxproj".: (TargetId:108)
+                   Done executing task "CallTarget". (TaskId:51)
+02:25:24.115     1>Done building target "GetCopyToOutputDirectoryItems" in project "probe32.vcxproj".: (TargetId:106)
+02:25:24.115     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:109)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+02:25:24.115     1>Done building target "_CopySourceItemsToOutputDirectory" in project "probe32.vcxproj".: (TargetId:109)
+02:25:24.115     1>Target "_CheckForCompileOutputs: (TargetId:110)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+02:25:24.116     1>Done building target "_CheckForCompileOutputs" in project "probe32.vcxproj".: (TargetId:110)
+02:25:24.116     1>Target "CopyFilesToOutputDirectory: (TargetId:111)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "PrepareForRun" depends on it):
+02:25:24.116     1>Done building target "CopyFilesToOutputDirectory" in project "probe32.vcxproj".: (TargetId:111)
+02:25:24.116     1>Target "PrepareForRun: (TargetId:112)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.116     1>Done building target "PrepareForRun" in project "probe32.vcxproj".: (TargetId:112)
+02:25:24.116     1>Target "PostBuildEvent: (TargetId:113)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" from project "B:\source\probe32\probe32.vcxproj" (target "_BuildLinkAction" depends on it):
+02:25:24.116     1>Done building target "PostBuildEvent" in project "probe32.vcxproj".: (TargetId:113)
+02:25:24.116     1>Target "_BuildLinkAction: (TargetId:114)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "BuildLink" depends on it):
+02:25:24.116     1>Done building target "_BuildLinkAction" in project "probe32.vcxproj".: (TargetId:114)
+02:25:24.116     1>Target "BuildLink: (TargetId:115)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+02:25:24.116     1>Done building target "BuildLink" in project "probe32.vcxproj".: (TargetId:115)
+02:25:24.116     1>Target "AfterBuild: (TargetId:116)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+02:25:24.116     1>Done building target "AfterBuild" in project "probe32.vcxproj".: (TargetId:116)
+02:25:24.116     1>Target "_CleanGetCurrentAndPriorFileWrites: (TargetId:117)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "IncrementalClean" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:53)
+                   Done executing task "ReadLinesFromFile". (TaskId:53)
+                   Task "ConvertToAbsolutePath" (TaskId:54)
+                   Done executing task "ConvertToAbsolutePath". (TaskId:54)
+                   Task "FindUnderPath" (TaskId:55)
+                   Done executing task "FindUnderPath". (TaskId:55)
+                   Task "FindUnderPath" (TaskId:56)
+                   Done executing task "FindUnderPath". (TaskId:56)
+                   Task "FindUnderPath" (TaskId:57)
+                   Done executing task "FindUnderPath". (TaskId:57)
+                   Task "RemoveDuplicates" (TaskId:58)
+                   Done executing task "RemoveDuplicates". (TaskId:58)
+02:25:24.119     1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "probe32.vcxproj".: (TargetId:117)
+02:25:24.119     1>Target "IncrementalClean: (TargetId:118)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+                   Task "FindUnderPath" (TaskId:59)
+                   Done executing task "FindUnderPath". (TaskId:59)
+                   Task "FindUnderPath" (TaskId:60)
+                   Done executing task "FindUnderPath". (TaskId:60)
+                   Task "Delete" (TaskId:61)
+                   Done executing task "Delete". (TaskId:61)
+                   Task "RemoveDuplicates" (TaskId:62)
+                   Done executing task "RemoveDuplicates". (TaskId:62)
+02:25:24.120     1>Done building target "IncrementalClean" in project "probe32.vcxproj".: (TargetId:118)
+02:25:24.120     1>Target "TlogCleanup: (TargetId:119)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+                   Task "CleanupStaleTlogItems" (TaskId:63)
+                   Done executing task "CleanupStaleTlogItems". (TaskId:63)
+02:25:24.124     1>Done building target "TlogCleanup" in project "probe32.vcxproj".: (TargetId:119)
+02:25:24.124     1>Target "FinalizeBuildStatus: (TargetId:120)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" from project "B:\source\probe32\probe32.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:64)
+                   Done executing task "Delete". (TaskId:64)
+                   Task "Touch" (TaskId:65)
+                   Done executing task "Touch". (TaskId:65)
+02:25:24.124     1>Done building target "FinalizeBuildStatus" in project "probe32.vcxproj".: (TargetId:120)
+02:25:24.124     1>Target "Build: (TargetId:121)" in file "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" from project "B:\source\probe32\probe32.vcxproj" (entry point):
+02:25:24.124     1>Done building target "Build" in project "probe32.vcxproj".: (TargetId:121)
+02:25:24.124     1>Done Building Project "B:\source\probe32\probe32.vcxproj" (Build target(s)).
+
+Project Performance Summary:
+     1777 ms  B:\source\probe32\probe32.vcxproj          1 calls
+               1777 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  ComputeLinkSwitches                        1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  ComputeMASMOutput                          1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  FinalizeBuildStatus                        1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromThisProject   1 calls
+        0 ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ContentFilesProjectOutputGroup             1 calls
+        0 ms  SatelliteDllsProjectOutputGroup            1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  Build                                      1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  _CheckWindowsSDKInstalled                  1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  AddExternalIncludDirectoriesToPaths        1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  _AddOutputPathToGlobalPropertiesToRemove   1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  IgnoreJavaScriptOutputAssembly             1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  WarnCompileDuplicatedFilename              1 calls
+        0 ms  GetReferencedVCProjectsInfo                1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  CustomBuild                                1 calls
+        0 ms  CopyFileToFolders                          1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  MakeDirsForFxc                             1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  IncrementalClean                           1 calls
+        1 ms  PreBuildEvent                              1 calls
+        1 ms  SetTelemetryEnvironmentVariables           1 calls
+        2 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        3 ms  FindReferenceAssembliesForReferences       1 calls
+        3 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        3 ms  GetCopyToOutputDirectoryItems              1 calls
+        3 ms  BuiltProjectOutputGroup                    1 calls
+        4 ms  TlogCleanup                                1 calls
+        6 ms  _WriteMasmTlogs                            1 calls
+        6 ms  _SplitProjectReferencesByFileExistence     1 calls
+        7 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        7 ms  InitializeBuildStatus                      1 calls
+       10 ms  PrepareForBuild                            1 calls
+       22 ms  CreateRecipeFile                           1 calls
+      541 ms  _MASM                                      1 calls
+     1151 ms  Link                                       1 calls
+
+Task Performance Summary:
+        0 ms  Message                                    4 calls
+        0 ms  FindUnderPath                              5 calls
+        0 ms  ConvertToAbsolutePath                      1 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  AssignTargetPath                           7 calls
+        0 ms  Touch                                      2 calls
+        0 ms  ReadLinesFromFile                          2 calls
+        0 ms  GetOutOfDateItems                          3 calls
+        0 ms  SetRidAgnosticValueForProjects             1 calls
+        0 ms  MSBuild                                    1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  VCMessage                                  1 calls
+        1 ms  MakeDir                                   10 calls
+        1 ms  Delete                                     2 calls
+        1 ms  RemoveDuplicates                           2 calls
+        1 ms  SetEnv                                    11 calls
+        2 ms  CallTarget                                 2 calls
+        4 ms  CleanupStaleTlogItems                      1 calls
+        9 ms  CheckVCToolsetVersion                      1 calls
+       12 ms  WriteLinesToFile                           3 calls
+       22 ms  GenerateDesktopDeployRecipe                1 calls
+      105 ms  MASM                                       1 calls
+     1144 ms  Link                                       1 calls
+
+Build succeeded.
+
+                   "B:\source\probe32\probe32.vcxproj" (Build target) (1) ->
+                   (_MASM target) -> 
+                     test.asm(10): warning A4011: multiple .MODEL directives found : .MODEL ignored
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.77
